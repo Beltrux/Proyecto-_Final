@@ -1,0 +1,14 @@
+//footer
+.footer_style{
+    background-color: rgb(50, 46, 46);
+}
+
+.footer_style a {
+    margin: 2%;
+    margin-bottom: 0;
+}
+.footer_style img:hover {
+    transform:translateY(-3px) scale(1.05);
+    box-shadow: rgba(15, 15, 15, 0.7);
+    filter: none;
+}

@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="../img/logotipo.png" type="image/x-icon">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <!--<link rel="stylesheet" href="../css/style.css">-->
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Productos</title>
 </head>
 <body>
@@ -44,6 +45,7 @@
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <!--<button class="btn btn-outline-success" type="submit">Search</button>-->
+
                 </form>
               </div>
             </div>
@@ -51,8 +53,50 @@
     </header>
     <!--inicia galeria de seccion productos--> 
     <main>
-        <h2>¡Aprende con nosotros a darle un estilo único a tus pastas!</h2>
-      <div class="container__card">
+        <h2 class="tittle">¡Aprende con nosotros a darle un estilo único a tus pastas!</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/fideocolor.jpg" class="d-block w-100" alt="fideos rainbow">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Proximamente</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/Screenshot_20220425-131440_Instagram.jpg" class="d-block w-100" alt="raviolesDeEspinaca">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Proximamente</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/Heart beet ravioli - copia.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Proximamente</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+
+
+
+        <!--<div class="container__card">
 
           <div class="card__father">
               <div class="card">
@@ -107,8 +151,145 @@
                   </div>
               </div>
           </div>
+      </div>-->
+    <section class="recetas">
+      <h2 class="tittle">Fideos al huevo</h2>
+      <div class="foto_receta">
+        <img src="../img/Colorful HomemadePasta.jpg" class="rounded mx-auto d-block" alt="..." width="300px" height="200px">
       </div>
-  </main>
+      
+    <h4 class="list_title">Ingredientes</h4>
+      <ul class="ingredientes">
+        <li>400 g de harina 0000</li>
+        <li>4 huevos</li>
+        <li>1 cucharada de aceite de oliva</li>
+        <li>1 atado de brócoli</li>
+        <li>2 dientes de ajo</li>
+        <li>1 peperoncino</li>
+        <li>Sal gruesa, agusto</li>
+      </ul>
+    <h4 class="list_title">Preparación</h4>
+      <ol class="preparacion">
+        <li>Sobre la mesada realizar una corona con la harina. En el centro, incorporar 4 huevos enteros y 4 cucharadas soperas de agua.</li>
+        <li>Incorporar y comenzar a amasar. Formar una masa lisa y homogénea. Dejar descansar tapada a temperatura ambiente.</li>
+        <li>Estirar con máquina de pasta o palote de 1 a 2 milímetros de espesor y cortar con la máquina o a cuchillo. Dejar orear la pasta.</li>
+        <li>Cocinar en abundante agua hirviendo con sal.</li>
+        <li>Salsa: calentar aceite de oliva en una sartén con ajo en láminas y ají peperoncino . Antes que el ajo se queme agregar brócolis cocidos , luego la pasta y cocinar un minuto más.</li>
+      </ol>
+    <h4 class="list_title">Recomendación</h4>
+      <p class="recom">Podés mezclar con unos tomates secos hidratados y albahaca, agregando un poco del agua de cocción, sin necesidad de hacer una pasta <br> muy elaborada y ya tenes unos fideos caseros exquisitos. Acordate de ponerle bastante sal al agua de cocción y nada de aceite. <br> Echá las pastas cuando ya rompió el punto de hervor.</p>
+      
+    </section>
+
+    <hr>
+
+    
+    <section class="recetas">
+
+      <h2 class="tittle">Lasagna</h2>
+      <div class="foto_receta">
+        <img src="../img/lasa.jpg" class="rounded mx-auto d-block" alt="..." width="300px" height="200px">
+      </div>
+      
+    <h4 class="list_title">Ingredientes</h4>
+      <ul class="ingredientes">
+        <li>600 g carne de ternera para guisar</li>
+        <li>300 g panceta de cerdo</li>
+        <li>1 cebolla</li>
+        <li>2 zanahorias</li>
+        <li>1 rama de apio</li>
+        <li>200ml vino tinto</li>
+        <li>800 g tomates pelados o salsa de tomate</li>
+        <li>50 ml de leche</li>
+        <li>3 cda de aceite de oliva</li>
+        <li>Sal a gusto</li>
+        <li>Pimienta negra molida a gusto</li>
+      </ul>
+      <h4 class="list_title">Pasta para Lasagna</h4>
+      <ul class="ingredientes">
+        <li>200 g harina comun</li>
+        <li>2 huevos</li>
+        <li>1-2 cda aceite de oliva</li>
+        <li>1 pizca de sal</li>
+      </ul>
+      <h4 class="list_title">Bechamel</h4>
+      <ul class="ingredientes">
+        <li>80 g mantequilla</li>
+        <li>80 g harina comun</li>
+        <li>75ml leche</li>
+        <li>Nuez moscada al gusto</li>
+        <li>Sal a gusto</li>
+        <li>Pimienta negra al gusto</li>
+        <li>200 g queso parmesano</li>
+      </ul>
+    <h4 class="list_title">Elaboración paso a paso</h4>
+      <ol class="preparacion">
+        <li>Cortamos la panceta en cuadraditos pequeños. Pero primero quitamos la piel porque es muy dura.</li>
+        <li>Ponemos la panceta a fuego medio para que se vaya haciendo despacio.</li>
+        <li>Mientras tanto cortamos las verduras en cuadrados pequeños.</li>
+        <li>¡No olvidemos remover la panceta!</li>
+        <li>Añadimos a la sarten con la panceta un chorro de aceite. A ser posible el de oliva.</li>
+        <li>Añadimos las verduras.</li>
+        <li>Añadimos 1 pizca de sal.</li>
+        <li>A fuego medio bajo, cocinamos hasta que la cebolla, la zanahoria y el apio se ablanden.</li>
+        <li>Añadimos la carne de ternera</li>
+        <li>Ponemos el fuego medio alto y removemos muy bien.</li>
+        <li>Una vez la carne haya cambiado de color añadimos 1 vaso de vino tinto.</li>
+        <li>Cocinamos hasta que se evapore el alcohol.</li>
+        <li>Añadimos salsa de tomate o tomates troceados. Podes utilizar la salsa de tomate que mas te guste.</li>
+        <li>Una vez que la salsa haya empezado a hervir ponemos el fuego bajo y ponemos la tapa dejando un hueco para que salga el vapor.</li>
+        <li>La salsa hay que cocerla de 2 a 4hs. Con mucha calma. Si ves que esta quedando seca, añade un poco de agua o de caldo.</li>
+        <li>Salpimenta a tu gusto</li>
+        <li>Añade leche para equilibrar la acidez.</li>
+        <li>La salsa esta lista.</li>
+      </ol>
+      <h4 class="list_title">Pasta Casera</h4>
+      <ol class="preparacion">
+        <li>Tamiza en un recipiente 200g de harina.</li>
+        <li>Añade 1 pizca de sal.</li>
+        <li>Casca 2 huevos grandes.</li>
+        <li>Añade 1 chorro de aceite de oliva.</li>
+        <li>Revuelve bien.</li>
+        <li>Termina de hacer la bola con la mano.</li>
+        <li>Esta masa no hay que amazarla mucho. Solo integrar bien todos los ingredientes.</li>
+        <li>La tapamos y la dejamos en reposo unos 20min.</li>
+        <li>Antes de pasar la masa por la maquina la estiramos un poco con rodillo.</li>
+        <li>El grosor de la pasta ideal es cuando empieza a transparentarse un poco.</li>
+        <li>Corta las láminas en tamaño 10x12 cm.</li>
+        <li>En abundante agua con sal cocemos la pasta. Cocerlas en dos tantas evitara que se peguen.</li>
+        <li>Cocemos la pasta aprox. 1min</li>
+        <li>La enjuagamos en agua fria.</li>
+        <li>La colocamos sobre un paño para que se seque.</li>
+      </ol>
+      <h4 class="list_title">Bechamel</h4>
+      <ol class="preparacion">
+        <li>Para hace la bechamel derrite la mantequilla.</li>
+        <li>Añade la harina.</li>
+        <li>Rehoga la harina 2-3 minutos a fuego medio.</li>
+        <li>Añade la leche fria y haz el fuego alto.</li>
+        <li>Remueve muy bien. En la leche fria la harina se siluye muy bien.</li>
+        <li>Remover hasta que espese.</li>
+        <li>En cuanto rompa a hervir hacemos el fuego medio y la cocemos 2-3 minutos mas.</li>
+        <li>Retiramos la bechamel del fuego.</li>
+        <li>Condimentamos. Añadimos 1 pizca de nuez moscada.</li>
+        <li>Sal.</li>
+        <li>Un poco de pimienta negra molida.</li>
+        <li>Lo cubrimos con un film transparente para que no se forme una costra negra.</li>
+        <li>Rallamos el parmesano o parmigiano.</li>
+        <li>Precalienta el horno a 180°C Ó 360°F con calor de arriba y abajo.</li>
+        <li>Unta el molde o la fuente con la mantequilla.</li>
+        <li>Cubre el fondo con la bechamel</li>
+        <li>Coloca por encima una capa de pasta.</li>
+        <li>Por encima de la pasta va el ragú o salsa de carne.</li>
+        <li>Rocia el ragú con un poco de bechamel.</li>
+        <li>Espolvorea con parmigiano.</li>
+        <li>Vamos llenando con capas hasta llenar el molde.</li>
+        <li>La última capa cubrimos generosamente con bechamel y espolvoreamos generosamente con queso. </li>
+        <li>Horneamos la lasagna 45 minutos, los ultimos 5 minutos con grill a 250°C.</li>
+        <li>Antes de servir hay que reposarla 10-15 minutos.</li>
+      </ol>
+    </section>
+    </main>
    
     <footer class="footer static-bottom footer_style">
       <div class="container">
@@ -117,9 +298,9 @@
                   <p>Copyright Florencia Beltran©</p>
               </div>
               <div class="col-12 col-md-4 col-lg-4 text-center">
-                  <a href="https://www.facebook.com/Lapastafattoincasa"><img src="../img/icon-facebook.png" alt="FACEBOOK" width="80px"></a>
-                  <a href="https://www.instagram.com/la_pasta_fatto_in_casa/"><img src="../img/icon-instagram.png" alt="INSTAGRAM" width="80px"></a>
-                  <a href="https://api.whatsapp.com/5491136599463"><img src="../img/icon-whatsapp.png" alt="WHATSAPP" width="90px"></a>
+                  <a href="https://www.facebook.com/Lapastafattoincasa"><img src="../img/facebook.png" alt="FACEBOOK" width="30px"></a>
+                  <a href="https://www.instagram.com/la_pasta_fatto_in_casa/"><img src="../img/instagram.png" alt="INSTAGRAM" width="30px"></a>
+                  <a href="https://api.whatsapp.com/5491136599463"><img src="../img/whatsapp.png" alt="WHATSAPP" width="30px"></a>
               </div>
           </div>
       </div>

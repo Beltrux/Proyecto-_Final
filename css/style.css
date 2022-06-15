@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 body{
-    background-image: url(../img/fondo_recetas.jpg);
-    background-size: 1850px;
+    /*background-image: url(../img/fondo_recetas.jpg);*/
+    background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
     background-repeat: no-repeat;
     margin-top: 0 auto;
-    margin-bottom: 0;
+    margin-bottom: none;
 }
 /*Menu de navegacion*/
 .colorenlacebarra{
-    color: #fff !important;
+    color: black !important;
 }
 
 .navbar_style {
@@ -23,12 +28,19 @@ body{
     font-size: 20px;
     background:rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+.navbar ul li a:hover{
+        transform:translateY(-3px);
+        color: black;
+        justify-content: center;
 }
 
 .dropdown-menu{ 
     background:rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+
 
 /*Fin estilo de navegacion*/
 /*.col{
@@ -79,16 +91,43 @@ body{
 /*Fin estilo de productos*/
 
 /*Estilo de fuentes*/
-h2, h3, h5{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h2, h3,h4, h5{
+    font-family: 'Lobster', cursive;
+    color: black;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 5px;
 }
+
+
+.title{
+    font-size: 50px;
+    text-decoration:underline;
+}
+
+.ingredientes li{
+    flex-direction: row;
+    margin-left: 200px;
+    
+}
+.preparacion li{
+    flex-direction: row;
+    margin-left: 200px;
+
+}
+.recom{
+    flex-direction: row;
+    margin-left: 200px;
+    text-decoration: dashed;
+}
+
+
+
+
 /*Fin estilo de fuentes*/
 
 
-/*Estilo de Recetas*/
+/*Estilo de Recetas
 .container__card{
     max-width: 1200px;
     margin: auto;
@@ -130,9 +169,8 @@ h2, h3, h5{
 }
 .card__back{
     transform: rotateY(180deg);
-    /*background: rgba(209, 208, 207, 0.903);*/
-    background-color: #4159d096;
-    background-image: linear-gradient(43deg, #4159d0c7 0%, #c850c09e 46%, #ffcd70be 100%);
+    /*background: rgba(209, 208, 207, 0.903);***
+    background-image: linear-gradient(180deg, #ffc0a9 0, #ffb5a6 16.67%, #ffa9a2 33.33%, #f29d9d 50%, #de9297 66.67%, #cc8891 83.33%, #bb7f8b 100%);
 }
 .body__card_front{
     width: 100%;
@@ -176,13 +214,13 @@ h2, h3, h5{
     background: #58B0F6;
     box-shadow: 1px 1px 30px -5px #58B0F6;
     border-radius: 7px;
-    transition: box-shadow 600ms;
+    transition: box-shadow 400ms;
 }
 
 .body__card_back input:hover{
     box-shadow: 1px 1px 30px 0px #449de6;
 }
-/*Finaliza estilo de recetas*/
+/*Finaliza estilo de recetas
 @media screen and (max-width: 768px) {
     .header {
         text-align: center;
@@ -194,15 +232,34 @@ h2, h3, h5{
     .container .related-post {
         grid-column: 1/-1;
     }
+}*/
+
+/*RECETAS*/
+
+.ingredientes{
+    list-style: disc;
+}
+.preparacion{
+    list-style: decimal;
+}
+.recomendacion{
+    margin: 0 auto;
 }
 
-
-
-
-
-
-
-
+.carousel-inner{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.carousel-item img{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+    
+}
 
 
 /*Estilo de formulario*/
@@ -240,6 +297,13 @@ textarea{
 }
 
 
+
+
+
+
+
+
+
 /*Estilo de textos*/
 .texto{
     background-color: #f4bfbfc9;
@@ -251,26 +315,59 @@ textarea{
 .texto{
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 10%;
+    width: 85%;
+    max-width: 850px;
+    font-size: 1.5;    
+}
+.textoText{
+    background-color: #f4bfbfc9;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+    border-style: none;
+}
+.textoText{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5%;
     width: 85%;
     max-width: 850px;
     font-size: 1.5;
-    
 }
-
+.location{
+    margin-left: 37%;
+    justify-content: center;
+    align-items: center;
+}
 /*Finaliza estilo de textos*/
 
-
-
+.card{ 
+    position: absolute;
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    perspective: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
 /*Estilo de footer*/
 .footer_style{
-    background-color: #3EECAC;
-    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);  
+    /*background-color: #3EECAC;
+    background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%); */
+    background-color: rgb(50, 46, 46);
 }
 
 .footer_style a {
     margin: 2%;
     margin-bottom: 0;
 }
+.footer_style img:hover {
+    transform:translateY(-3px) scale(1.05);
+    box-shadow: rgba(15, 15, 15, 0.7);
+    filter: none;
+}
+
 /*Fin estilo de footer*/
 

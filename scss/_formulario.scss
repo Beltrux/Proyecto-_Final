@@ -1,0 +1,51 @@
+//formulario
+
+.form{
+    width: 450px;
+    margin: 0 auto;
+    background: #8941af3f;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+        textarea{
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 95%;
+        }
+        #button{
+            background: #1C1427;
+            color: #fff;
+            padding: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+}
+.formTitle{
+    font-family: 'lobster', cursive;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.texto{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f4bfbfc9;
+    width: 85%;
+    max-width: 850px;
+    font-size: 1.5; 
+}
+

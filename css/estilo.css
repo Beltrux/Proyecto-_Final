@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+header {
+  background-color: black; }
+
+.navbar {
+  font-size: 20px;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%); }
+
+.nav-link {
+  color: black;
+  font-size: 20px; }
+
+main .figure-img {
+  width: 400px;
+  height: 300px; }
+
+.figure {
+  margin: 50px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(15, 15, 15, 0.586);
+  cursor: default;
+  transition: all 400ms ease; }
+  .figure:hover {
+    transform: translateY(-3%);
+    cursor: pointer;
+    box-shadow: 0px 1px 10px rgba(12, 12, 12, 0.015);
+    transition: all 400ms ease; }
+
+.figure-caption {
+  color: black;
+  font-size: 25px;
+  text-align: center; }
+
+.relleno {
+  text-align: center; }
+
+main .carousel-inner {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px; }
+
+.carousel-item img {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  max-height: 50%; }
+
+.tittle {
+  margin-top: 30px;
+  font-family: 'lobster', cursive;
+  text-align: center; }
+
+.list_title {
+  font-family: 'lobster', cursive;
+  flex-direction: row;
+  text-align: center; }
+
+.ingredientes {
+  flex-direction: row;
+  margin-left: 200px; }
+
+.preparacion {
+  flex-direction: row;
+  margin-left: 200px; }
+
+.recom {
+  text-align: center; }
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+  background: #8941af3f;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  border-radius: 7px; }
+
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+  input textarea, textarea textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 95%; }
+  input #button, textarea #button {
+    background: #1C1427;
+    color: #fff;
+    padding: 20px; }
+    input #button:hover, textarea #button:hover {
+      cursor: pointer; }
+
+.formTitle {
+  font-family: 'lobster', cursive;
+  text-align: center;
+  margin-top: 25px; }
+
+.texto {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f4bfbfc9;
+  width: 85%;
+  max-width: 850px;
+  font-size: 1.5; }
+
+.nosotros {
+  margin-top: 30px;
+  font-family: 'lobster', cursive;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline; }
+
+.lorem-text {
+  background-color: #f4bfbfc9;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  width: 85%;
+  max-width: 850px;
+  font-size: 1.5; }
+
+.location {
+  margin-left: 37%;
+  justify-content: center;
+  align-items: center; }
+
+.card {
+  position: absolute;
+  max-width: 1200px;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  perspective: 1000px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.footer_style {
+  background-color: #322e2e; }
+
+.footer_style a {
+  margin: 2%;
+  margin-bottom: 0; }
+
+.footer_style img:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: rgba(15, 15, 15, 0.7);
+  filter: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
+  background-repeat: no-repeat;
+  margin-top: 0 auto;
+  margin-bottom: none; }

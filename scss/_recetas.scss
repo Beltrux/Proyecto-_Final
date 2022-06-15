@@ -1,0 +1,39 @@
+
+//recetas
+
+main{
+    .carousel-inner{
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+.carousel-item img{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+}
+.tittle{
+    margin-top: 30px;
+    font-family: 'lobster', cursive;
+    text-align: center;
+}
+.list_title{
+    font-family: 'lobster', cursive;
+    flex-direction: row;
+    text-align: center;
+}
+.ingredientes{
+    flex-direction: row;
+    margin-left: 200px;
+}
+.preparacion{
+    flex-direction: row;
+    margin-left: 200px;
+}
+.recom{
+    text-align: center;
+}
