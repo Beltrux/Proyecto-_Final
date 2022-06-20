@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
+  background-repeat: no-repeat;
+  margin-top: 0 auto;
+  margin-bottom: none; }
+
 header {
   background-color: black; }
 
@@ -10,6 +21,10 @@ header {
 .nav-link {
   color: black;
   font-size: 20px; }
+
+.dropdown-menu {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%); }
 
 main .figure-img {
   width: 400px;
@@ -52,23 +67,22 @@ main .carousel-inner {
 .tittle {
   margin-top: 30px;
   font-family: 'lobster', cursive;
-  text-align: center; }
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px; }
 
 .list_title {
   font-family: 'lobster', cursive;
+  font-size: 30px;
   flex-direction: row;
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px; }
 
-.ingredientes {
-  flex-direction: row;
-  margin-left: 200px; }
-
-.preparacion {
-  flex-direction: row;
-  margin-left: 200px; }
-
-.recom {
-  text-align: center; }
+h5 {
+  font-family: 'lobster', cursive;
+  color: indigo; }
 
 .form {
   width: 450px;
@@ -101,6 +115,7 @@ input, textarea {
 
 .formTitle {
   font-family: 'lobster', cursive;
+  font-size: 2.5rem;
   text-align: center;
   margin-top: 25px; }
 
@@ -108,7 +123,7 @@ input, textarea {
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
-  background-color: #f4bfbfc9;
+  background-color: #8941af3f;
   width: 85%;
   max-width: 850px;
   font-size: 1.5; }
@@ -121,7 +136,6 @@ input, textarea {
   text-decoration: underline; }
 
 .lorem-text {
-  background-color: #f4bfbfc9;
   text-align: center;
   line-height: 1.5;
   margin: 0 auto;
@@ -158,13 +172,25 @@ input, textarea {
   box-shadow: rgba(15, 15, 15, 0.7);
   filter: none; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+.ingredientes, .preparacion {
+  background-color: #bc9ff6;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 10px;
+  border-radius: 40px 0px 40px 0px; }
 
-body {
-  background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
-  background-repeat: no-repeat;
-  margin-top: 0 auto;
-  margin-bottom: none; }
+.preparacion {
+  background-color: #eeaeca; }
+
+.about-us {
+  background-color: #d0a4f4;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  width: 85%;
+  max-width: 850px;
+  font-size: 18px;
+  border-radius: 40px 0px 40px 0px; }

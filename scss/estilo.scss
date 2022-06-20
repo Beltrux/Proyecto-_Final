@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-//partials
-@import "header";
-@import "productos";
-@import "recetas";
-@import "formulario";
-@import "nosotros";
-@import "footer";
-
-
-
-
 
 *{
     margin: 0;
@@ -26,6 +15,78 @@ body{
     margin-bottom: none;
 }
 
+
+
+
+
+//partials
+@import "header";
+@import "productos";
+@import "recetas";
+@import "formulario";
+@import "nosotros";
+@import "footer";
+
+
+//variables-Colores
+$bgcolor1:#f4bfbfc9;
+$bgcolor2:black ;
+$bgcolor3:#eeaeca;
+$bgcolor4:#8941af3f ;
+$bgcolor5:#94bbe9 ;
+$bgcolor6:#ffbff2;
+$bgcolor7:#bc9ff6;
+$bgcolor8:#d0a4f4;
+$bgcolor9:#fff ;
+
+//variables-medidas
+$width:200px;
+$height:200px;
+$size:20px;
+
+
+//alineacion
+$aling:center;
+$margin: 0 auto;
+$margint:50px;
+$marginb:10px;
+
+//mixins
+@mixin ingredientes {
+    background-color: $bgcolor7;
+    color: $bgcolor2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 10px; 
+    border-radius: 40px 0px 40px 0px;  
+}
+.ingredientes{
+    @include ingredientes;
+}
+
+.preparacion{
+    @extend .ingredientes;
+    background-color: $bgcolor3
+}
+
+
+@mixin nosotros{
+    background-color:$bgcolor8;;
+    text-align: $aling;
+    line-height: 1.5;
+    margin: $margin;
+    margin-bottom: 5%;
+    width: 85%;
+    max-width: 850px;
+    font-size:18px;
+    border-radius: 40px 0px 40px 0px; 
+    
+}
+
+.about-us{
+    @include nosotros;
+}
 
 
 

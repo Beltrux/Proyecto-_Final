@@ -19,21 +19,29 @@ main{
 .tittle{
     margin-top: 30px;
     font-family: 'lobster', cursive;
+    font-size: 3rem;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .list_title{
     font-family: 'lobster', cursive;
+    font-size: 30px;
     flex-direction: row;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
-.ingredientes{
-    flex-direction: row;
-    margin-left: 200px;
+
+h5{
+    font-family: 'lobster', cursive;
+    color: indigo;
+    
 }
-.preparacion{
-    flex-direction: row;
-    margin-left: 200px;
-}
-.recom{
-    text-align: center;
-}
+
+
+
+
+
+
+
