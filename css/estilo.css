@@ -32,7 +32,6 @@ main .figure-img {
 
 .figure {
   margin: 50px;
-  padding: 5px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0px 1px 10px rgba(15, 15, 15, 0.586);
@@ -173,8 +172,8 @@ input, textarea {
   color: black;
   margin-left: auto;
   margin-right: auto;
-  width: 800px auto;
-  padding: 10px;
+  justify-content: center;
+  width: 600px;
   border-radius: 40px 0px 40px 0px; }
 
 .preparacion {
@@ -203,14 +202,3 @@ input, textarea {
   .list_tittle {
     font-size: 1.5rem;
     text-align: center; } }
-
-@media screen and (max-width: 768px) {
-  .figure {
-    padding: 5px;
-    margin-left: 27%;
-    margin-right: auto; } }
-
-@media screen and (max-width: 768px) {
-  .footer_style a .text-left {
-    justify-content: center;
-    margin: 0 auto; } }
