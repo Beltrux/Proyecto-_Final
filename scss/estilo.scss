@@ -51,12 +51,12 @@ $marginb:10px;
 
 //mixins
 @mixin ingredientes {
-    background-color: $bgcolor7;
-    color: $bgcolor2;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    width: 600px;
+    background-color: $bgcolor8;
+    line-height: 1.5;
+    margin: $margin;
+    width: 85%;
+    max-width: 850px;
+    font-size: 1rem;
     border-radius: 40px 0px 40px 0px;  
 }
 .ingredientes{
@@ -88,7 +88,7 @@ $marginb:10px;
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 414px){
     .carousel-item img{
         justify-content: center;
         margin: 0 auto;
@@ -100,7 +100,7 @@ $marginb:10px;
         margin-bottom: 15px;
     }
     .list_tittle{
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
     }
 }

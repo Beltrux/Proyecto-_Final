@@ -1,7 +1,7 @@
 //formulario
 
 .form{
-    width: 450px;
+    width: 85%;
     margin: 0 auto;
     background: #8941af3f;
     padding: 10px 20px;
@@ -15,14 +15,13 @@ input, textarea{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding: 7px;
+    padding: 5px;
     box-sizing: border-box;
     font-size: 17px;
     border: none;
-        textarea{
-            min-height: 100px;
-            max-height: 200px;
-            max-width: 95%;
+        textarea{   
+            max-height: 95px;
+            max-width: 85%;
         }
         #button{
             background: #1C1427;
